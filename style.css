@@ -1,0 +1,127 @@
+:root {
+  --first-color: black;
+  --second-color: white;
+}
+
+html {
+  margin: 0;
+}
+
+body {
+  background-color: var(--first-color);
+  color: white;
+  margin: 0;
+}
+
+.logo {
+  font-size: 50px;
+  letter-spacing: 10px;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 30px;
+}
+
+#counterContainer {
+  background-color: #fff;
+  color: black;
+  max-width: 200px;
+  margin: 50px;
+  text-align: center;
+}
+
+.oneCounter {
+  padding: 20px;
+  border: 1px black solid;
+}
+
+#notValidDate {
+  position: relative;
+  top: 20px;
+  left: 50px;
+  color: red;
+  display: none;
+}
+
+.deleteCounterButton {
+  width: 200px;
+  background-color: var(--first-color);
+  color: white;
+  border: solid 1px var(--second-color);
+}
+
+#newCounterValue {
+  margin: 50px;
+}
+
+.addNewCounterContainer {
+  border: white solid 2px;
+}
+
+.changePageColor {
+  width: 200px;
+  background-color: white;
+  height: 50px;
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px;
+  cursor: pointer;
+}
+
+#blackPage {
+  background-color: black;
+  width: 25%;
+  padding: 10px;
+  height: 90%;
+  border: white solid 1px;
+}
+
+#bluePage {
+  background-color: blue;
+  width: 25%;
+  height: 90%;
+  border: white solid 1px;
+  padding: 10px;
+}
+
+#greenPage {
+  background-color: green;
+  width: 25%;
+  padding: 10px;
+  height: 90%;
+  border: white solid 1px;
+}
+
+#redPage {
+  background-color: red;
+  width: 25%;
+  padding: 10px;
+  height: 90%;
+  border: white solid 1px;
+}
+
+.container {
+  background-color: var(--first-color);
+  min-height: 1000px;
+}
+
+.changeLanguage {
+  float: left;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+#plLanguage {
+  border: var(--second-color) 1px dotted;
+  padding: 5px;
+  border-radius: 2%;
+}
+
+#enLanguage {
+  border: var(--second-color) 1px dotted;
+  padding: 5px;
+  border-radius: 2%;
+}
+/*# sourceMappingURL=style.css.map */
